@@ -42,7 +42,7 @@
      <x>0</x>
      <y>0</y>
      <width>1196</width>
-     <height>26</height>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -53,8 +53,10 @@
     <addaction name="actionClose"/>
     <addaction name="actionSave"/>
     <addaction name="actionSave_As"/>
-    <addaction name="separator"/>
     <addaction name="actionExit"/>
+    <addaction name="separator"/>
+    <addaction name="actionSwitchChinese"/>
+    <addaction name="actionSwitchEnglish"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -188,7 +190,7 @@
   <action name="actionOpen">
    <property name="icon">
     <iconset resource="../res/default.qrc">
-     <normaloff>:/img/open.svg</normaloff>:/img/open.svg</iconset>
+     <normaloff>:/img/openImage.png</normaloff>:/img/openImage.png</iconset>
    </property>
    <property name="text">
     <string>打开(&amp;O)</string>
@@ -203,7 +205,7 @@
   <action name="actionClose">
    <property name="icon">
     <iconset resource="../res/default.qrc">
-     <normaloff>:/img/clear.svg</normaloff>:/img/clear.svg</iconset>
+     <normaloff>:/img/cleanImage.png</normaloff>:/img/cleanImage.png</iconset>
    </property>
    <property name="text">
     <string>关闭图片</string>
@@ -212,7 +214,7 @@
   <action name="actionSave">
    <property name="icon">
     <iconset resource="../res/default.qrc">
-     <normaloff>:/img/save.svg</normaloff>:/img/save.svg</iconset>
+     <normaloff>:/img/saveImage.png</normaloff>:/img/saveImage.png</iconset>
    </property>
    <property name="text">
     <string>保存(&amp;S)</string>
@@ -222,11 +224,19 @@
    </property>
   </action>
   <action name="actionSave_As">
+   <property name="icon">
+    <iconset resource="../res/default.qrc">
+     <normaloff>:/img/saveImage.png</normaloff>:/img/saveImage.png</iconset>
+   </property>
    <property name="text">
     <string>另存为</string>
    </property>
   </action>
   <action name="actionExit">
+   <property name="icon">
+    <iconset resource="../res/default.qrc">
+     <normaloff>:/img/exitApp.png</normaloff>:/img/exitApp.png</iconset>
+   </property>
    <property name="text">
     <string>退出</string>
    </property>
@@ -237,7 +247,7 @@
   <action name="actionAbout">
    <property name="icon">
     <iconset resource="../res/default.qrc">
-     <normaloff>:/img/about.svg</normaloff>:/img/about.svg</iconset>
+     <normaloff>:/img/aboutThis.png</normaloff>:/img/aboutThis.png</iconset>
    </property>
    <property name="text">
     <string>关于</string>
@@ -256,7 +266,7 @@
   <action name="actionRestore">
    <property name="icon">
     <iconset resource="../res/default.qrc">
-     <normaloff>:/img/restore.png</normaloff>:/img/restore.png</iconset>
+     <normaloff>:/img/resetImage.png</normaloff>:/img/resetImage.png</iconset>
    </property>
    <property name="text">
     <string>恢复</string>
@@ -264,8 +274,8 @@
   </action>
   <action name="actionLeft">
    <property name="icon">
-    <iconset>
-     <normaloff>:/img/src/left.png</normaloff>:/img/src/left.png</iconset>
+    <iconset resource="../res/default.qrc">
+     <normaloff>:/img/rightRotate.png</normaloff>:/img/rightRotate.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Left</string>
@@ -281,6 +291,10 @@
    </property>
   </action>
   <action name="actionGrayscale">
+   <property name="icon">
+    <iconset resource="../res/default.qrc">
+     <normaloff>:/img/grayScale.png</normaloff>:/img/grayScale.png</iconset>
+   </property>
    <property name="text">
     <string>灰度图像</string>
    </property>
@@ -318,7 +332,7 @@
   <action name="actionAdjust_brightness">
    <property name="icon">
     <iconset resource="../res/default.qrc">
-     <normaloff>:/img/brightness.svg</normaloff>:/img/brightness.svg</iconset>
+     <normaloff>:/img/adjustBrightness.png</normaloff>:/img/adjustBrightness.png</iconset>
    </property>
    <property name="text">
     <string>亮度</string>
@@ -345,7 +359,7 @@
   <action name="actionHistogram">
    <property name="icon">
     <iconset resource="../res/default.qrc">
-     <normaloff>:/img/histogram.png</normaloff>:/img/histogram.png</iconset>
+     <normaloff>:/img/imageHistogram.png</normaloff>:/img/imageHistogram.png</iconset>
    </property>
    <property name="text">
     <string>直方图</string>
@@ -481,6 +495,22 @@
   <action name="actionRotate">
    <property name="text">
     <string>旋转</string>
+   </property>
+  </action>
+  <action name="actionSwitchChinese">
+   <property name="text">
+    <string>切换语言到中文</string>
+   </property>
+   <property name="toolTip">
+    <string>切换语言到中文</string>
+   </property>
+  </action>
+  <action name="actionSwitchEnglish">
+   <property name="text">
+    <string>切换语言到英语</string>
+   </property>
+   <property name="toolTip">
+    <string>切换语言到英语</string>
    </property>
   </action>
  </widget>

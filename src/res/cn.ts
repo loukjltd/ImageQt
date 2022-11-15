@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN" sourcelanguage="en">
+<TS version="2.1" language="zh_CN" sourcelanguage="en_US">
 <context>
     <name>BrightnessDialog</name>
     <message>
@@ -15,27 +15,27 @@
 <context>
     <name>DialogExpTransform</name>
     <message>
-        <location filename="dialog_exp_transform.ui" line="14"/>
+        <location filename="../dialog/dialog_exp_transform.ui" line="14"/>
         <source>Dialog</source>
         <translation>幂次灰度变换</translation>
     </message>
     <message>
-        <location filename="dialog_exp_transform.ui" line="28"/>
+        <location filename="../dialog/dialog_exp_transform.ui" line="28"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;变换函数：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;变换函数：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_exp_transform.ui" line="49"/>
+        <location filename="../dialog/dialog_exp_transform.ui" line="49"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;b = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;b = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_exp_transform.ui" line="67"/>
+        <location filename="../dialog/dialog_exp_transform.ui" line="67"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;c = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;c = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_exp_transform.ui" line="91"/>
+        <location filename="../dialog/dialog_exp_transform.ui" line="91"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;a = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;a = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -43,22 +43,22 @@
 <context>
     <name>DialogLogGrey</name>
     <message>
-        <location filename="dialog_log_grey.ui" line="20"/>
+        <location filename="../dialog/dialog_log_grey.ui" line="20"/>
         <source>Dialog</source>
         <translation>灰度对数变换</translation>
     </message>
     <message>
-        <location filename="dialog_log_grey.ui" line="72"/>
+        <location filename="../dialog/dialog_log_grey.ui" line="72"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;a = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;a = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_log_grey.ui" line="99"/>
+        <location filename="../dialog/dialog_log_grey.ui" line="99"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;b = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;b = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_log_grey.cpp" line="14"/>
+        <location filename="../dialog/dialog_log_grey.cpp" line="14"/>
         <source>Grey Level Logarithm Transformation</source>
         <translation>灰度对数变换</translation>
     </message>
@@ -66,73 +66,73 @@
 <context>
     <name>DialogPowerGrey</name>
     <message>
-        <location filename="dialog_power_grey.ui" line="14"/>
+        <location filename="../dialog/dialog_power_grey.ui" line="14"/>
         <source>Dialog</source>
         <translation>指数灰度变换</translation>
     </message>
     <message>
-        <location filename="dialog_power_grey.ui" line="26"/>
+        <location filename="../dialog/dialog_power_grey.ui" line="26"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;变换函数：y = cx&lt;/span&gt;&lt;span style=&quot; font-size:16pt; vertical-align:super;&quot;&gt;r &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;+ b&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;变换函数：y = cx&lt;/span&gt;&lt;span style=&quot; font-size:16pt; vertical-align:super;&quot;&gt;r &lt;/span&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;+ b&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_power_grey.ui" line="37"/>
+        <location filename="../dialog/dialog_power_grey.ui" line="37"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;c = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;c = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_power_grey.ui" line="55"/>
+        <location filename="../dialog/dialog_power_grey.ui" line="55"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;r = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;r = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_power_grey.ui" line="69"/>
+        <location filename="../dialog/dialog_power_grey.ui" line="69"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;b = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;b = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;b = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>DialogStretchTransform</name>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="14"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="14"/>
         <source>Grey Level Transform - Stretch</source>
         <translation>灰度拉伸变换</translation>
     </message>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="80"/>
-        <location filename="dialog_stretch_transform.ui" line="125"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="80"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="125"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;(&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;(&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="97"/>
-        <location filename="dialog_stretch_transform.ui" line="142"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="97"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="142"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="114"/>
-        <location filename="dialog_stretch_transform.ui" line="159"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="114"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="159"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="177"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="177"/>
         <source>k1 = </source>
         <translation>k1 = </translation>
     </message>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="198"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="198"/>
         <source>k2 =</source>
         <translation>k2 =</translation>
     </message>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="219"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="219"/>
         <source>k3 =</source>
         <translation>k3 =</translation>
     </message>
     <message>
-        <location filename="dialog_stretch_transform.ui" line="239"/>
+        <location filename="../dialog/dialog_stretch_transform.ui" line="239"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -150,37 +150,37 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>DialogThresholdTransform</name>
     <message>
-        <location filename="dialog_two_threshold_transform.ui" line="32"/>
+        <location filename="../dialog/dialog_two_threshold_transform.ui" line="32"/>
         <source>Grey Transform - Two Threshold Transform</source>
         <translation>双阈值灰度变换</translation>
     </message>
     <message>
-        <location filename="dialog_two_threshold_transform.ui" line="46"/>
+        <location filename="../dialog/dialog_two_threshold_transform.ui" line="46"/>
         <source>Type:</source>
         <translation>类型：</translation>
     </message>
     <message>
-        <location filename="dialog_two_threshold_transform.ui" line="54"/>
+        <location filename="../dialog/dialog_two_threshold_transform.ui" line="54"/>
         <source>0-255-0</source>
         <translation>0-255-0</translation>
     </message>
     <message>
-        <location filename="dialog_two_threshold_transform.ui" line="59"/>
+        <location filename="../dialog/dialog_two_threshold_transform.ui" line="59"/>
         <source>255-0-255</source>
         <translation>255-0-255</translation>
     </message>
     <message>
-        <location filename="dialog_two_threshold_transform.ui" line="71"/>
+        <location filename="../dialog/dialog_two_threshold_transform.ui" line="71"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;T1 = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;T1 = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_two_threshold_transform.ui" line="95"/>
+        <location filename="../dialog/dialog_two_threshold_transform.ui" line="95"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;T2 = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;T2 = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_two_threshold_transform.ui" line="116"/>
+        <location filename="../dialog/dialog_two_threshold_transform.ui" line="116"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -206,101 +206,100 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">请输入模糊程度：</translation>
     </message>
     <message>
-        <location filename="gaussianblurdialog.ui" line="20"/>
+        <location filename="../dialog/gaussianblurdialog.ui" line="20"/>
         <source>Gauss</source>
         <translation>高斯模糊</translation>
     </message>
     <message>
-        <location filename="gaussianblurdialog.ui" line="30"/>
+        <location filename="../dialog/gaussianblurdialog.ui" line="30"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Radius = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translatorcomment>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;半径 = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translatorcomment>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Radius = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;半径 = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="gaussianblurdialog.ui" line="48"/>
+        <location filename="../dialog/gaussianblurdialog.ui" line="48"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Sigma = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Sigma = &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;西格玛= &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>Histogram</name>
     <message>
-        <location filename="histogram.cpp" line="117"/>
+        <location filename="../utils/histogram.cpp" line="117"/>
         <source>Can&apos;t load the gray levels histogram.</source>
-        <translation>灰度直方图加载失败</translation>
+        <translation type="unfinished">灰度直方图加载失败。</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="123"/>
+        <location filename="../utils/histogram.cpp" line="123"/>
         <source>Can&apos;t load the red component histogram.</source>
-        <translation>红色分量直方图加载失败</translation>
+        <translation type="unfinished">红色分量直方图加载失败。</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="131"/>
+        <location filename="../utils/histogram.cpp" line="131"/>
         <source>Can&apos;t load the green component histogram.</source>
-        <translation>绿色分量直方图加载失败</translation>
+        <translation type="unfinished">绿色分量直方图加载失败。</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="136"/>
+        <location filename="../utils/histogram.cpp" line="136"/>
         <source>Can&apos;t load the blue component histogram.</source>
-        <translation>蓝色分量直方图加载失败</translation>
+        <translation type="unfinished">蓝色分量直方图加载失败。</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="166"/>
+        <location filename="../utils/histogram.cpp" line="166"/>
         <source>black</source>
         <translation>黑</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="167"/>
+        <location filename="../utils/histogram.cpp" line="167"/>
         <source>white</source>
         <translation>白</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="171"/>
+        <location filename="../utils/histogram.cpp" line="171"/>
         <source>GRAY LEVELS HISTOGRAM</source>
         <translation>灰度直方图</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="173"/>
-        <location filename="histogram.cpp" line="230"/>
-        <location filename="histogram.cpp" line="287"/>
-        <location filename="histogram.cpp" line="344"/>
+        <location filename="../utils/histogram.cpp" line="173"/>
+        <location filename="../utils/histogram.cpp" line="230"/>
+        <location filename="../utils/histogram.cpp" line="287"/>
+        <location filename="../utils/histogram.cpp" line="344"/>
         <source>Intensity</source>
         <translation>强度</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="174"/>
-        <location filename="histogram.cpp" line="231"/>
-        <location filename="histogram.cpp" line="288"/>
-        <location filename="histogram.cpp" line="345"/>
+        <location filename="../utils/histogram.cpp" line="174"/>
+        <location filename="../utils/histogram.cpp" line="231"/>
+        <location filename="../utils/histogram.cpp" line="288"/>
+        <location filename="../utils/histogram.cpp" line="345"/>
         <source>Pixels count</source>
         <translation>像素数</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="228"/>
+        <location filename="../utils/histogram.cpp" line="228"/>
         <source>RED COMPONENT HISTOGRAM</source>
         <translation>红色分量直方图</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="285"/>
+        <location filename="../utils/histogram.cpp" line="285"/>
         <source>GREEN COMPONENT HISTOGRAM</source>
         <translation>绿色分量直方图</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="223"/>
-        <location filename="histogram.cpp" line="280"/>
-        <location filename="histogram.cpp" line="337"/>
+        <location filename="../utils/histogram.cpp" line="223"/>
+        <location filename="../utils/histogram.cpp" line="280"/>
+        <location filename="../utils/histogram.cpp" line="337"/>
         <source>dark</source>
         <translation>暗</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="224"/>
-        <location filename="histogram.cpp" line="281"/>
-        <location filename="histogram.cpp" line="338"/>
+        <location filename="../utils/histogram.cpp" line="224"/>
+        <location filename="../utils/histogram.cpp" line="281"/>
+        <location filename="../utils/histogram.cpp" line="338"/>
         <source>light</source>
         <translation>亮</translation>
     </message>
     <message>
-        <location filename="histogram.cpp" line="342"/>
+        <location filename="../utils/histogram.cpp" line="342"/>
         <source>BLUE COMPONENT HISTOGRAM</source>
         <translation>蓝色分量直方图</translation>
     </message>
@@ -308,27 +307,27 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>LinearGrayDialog</name>
     <message>
-        <location filename="dialog_linear_gray.ui" line="14"/>
+        <location filename="../dialog/dialog_linear_gray.ui" line="14"/>
         <source>Linear Gray Level Transformation</source>
         <translation>线性灰度变换</translation>
     </message>
     <message>
-        <location filename="dialog_linear_gray.ui" line="63"/>
+        <location filename="../dialog/dialog_linear_gray.ui" line="63"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Transformation function:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;变换函数：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="dialog_linear_gray.ui" line="75"/>
+        <location filename="../dialog/dialog_linear_gray.ui" line="75"/>
         <source>y = </source>
         <translation>y = </translation>
     </message>
     <message>
-        <location filename="dialog_linear_gray.ui" line="101"/>
+        <location filename="../dialog/dialog_linear_gray.ui" line="101"/>
         <source>x + </source>
         <translation>x + </translation>
     </message>
     <message>
-        <location filename="dialog_linear_gray.ui" line="138"/>
+        <location filename="../dialog/dialog_linear_gray.ui" line="138"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -350,9 +349,9 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">ImageQt</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="14"/>
+        <location filename="../mainwindow/mainwindow.ui" line="14"/>
         <source>ImageQt</source>
-        <translation>ImageQt</translation>
+        <translation type="unfinished">Qt数字图像处理软件</translation>
     </message>
     <message>
         <source>Open</source>
@@ -371,15 +370,13 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">恢复</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="50"/>
         <source>Fi&amp;le</source>
         <oldsource>File</oldsource>
-        <translation>文件</translation>
+        <translation type="vanished">文件</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="61"/>
         <source>Edit</source>
-        <translation>编辑</translation>
+        <translation type="vanished">编辑</translation>
     </message>
     <message>
         <source>Add &amp;Frame</source>
@@ -401,16 +398,14 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">工具</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="101"/>
         <source>&amp;Rotate</source>
         <oldsource>Rotate</oldsource>
-        <translation>旋转</translation>
+        <translation type="vanished">旋转</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="108"/>
         <source>&amp;Flip</source>
         <oldsource>Flip</oldsource>
-        <translation>翻转</translation>
+        <translation type="vanished">翻转</translation>
     </message>
     <message>
         <source>Grey level transformation</source>
@@ -421,24 +416,20 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">灰度变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="70"/>
         <source>Help</source>
-        <translation>帮助</translation>
+        <translation type="vanished">帮助</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="74"/>
         <source>&amp;Language</source>
-        <translation>语言</translation>
+        <translation type="vanished">语言</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="84"/>
         <source>&amp;Grey Transfrom</source>
-        <translation>灰度变换</translation>
+        <translation type="vanished">灰度变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="97"/>
         <source>Geo&amp;metric Transform</source>
-        <translation>几何变换</translation>
+        <translation type="vanished">几何变换</translation>
     </message>
     <message>
         <source>Rotate</source>
@@ -449,9 +440,8 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">镜像</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="119"/>
         <source>Artistic Effect</source>
-        <translation>艺术效果</translation>
+        <translation type="vanished">艺术效果</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -466,307 +456,526 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">色温</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="218"/>
         <source>&amp;Open...</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="226"/>
         <source>&amp;Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="235"/>
         <source>&amp;Save...</source>
-        <translation>保存</translation>
+        <translation type="vanished">保存</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="243"/>
         <source>Sa&amp;ve As...</source>
-        <translation>另存为</translation>
+        <translation type="vanished">另存为</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="248"/>
         <source>&amp;Exit</source>
-        <translation>退出</translation>
+        <translation type="vanished">退出</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="260"/>
         <source>&amp;About</source>
-        <translation>关于</translation>
+        <translation type="vanished">关于</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="279"/>
         <source>R&amp;estore</source>
-        <translation>恢复</translation>
+        <translation type="vanished">恢复</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="288"/>
+        <location filename="../mainwindow/mainwindow.ui" line="273"/>
         <source>&amp;Left</source>
+        <translatorcomment>Anticlockwise</translatorcomment>
         <translation>逆时针</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="297"/>
         <source>&amp;Right</source>
-        <translation>顺时针</translation>
+        <translation type="vanished">顺时针</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="306"/>
         <source>&amp;Zoom</source>
-        <translation>缩放</translation>
+        <translation type="vanished">缩放</translation>
     </message>
     <message>
         <source>&amp;Gaussian blur</source>
         <translation type="vanished">高斯模糊</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="123"/>
         <source>&amp;Frame</source>
-        <translation>相框</translation>
+        <translation type="vanished">相框</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="131"/>
         <source>&amp;Texture</source>
-        <translation>纹理</translation>
+        <translation type="vanished">纹理</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="137"/>
         <source>T&amp;emperature</source>
-        <translation>色温</translation>
+        <translation type="vanished">色温</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="152"/>
         <source>Smoothi&amp;ng and  Sharpen</source>
         <oldsource>Smoothi&amp;ng</oldsource>
-        <translation>模糊和平滑</translation>
+        <translation type="vanished">模糊和平滑</translation>
     </message>
     <message>
         <source>Sharpen</source>
         <translation type="vanished">锐化</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="163"/>
         <source>Contour Extraction</source>
-        <translation>轮廓提取</translation>
+        <translation type="vanished">轮廓提取</translation>
     </message>
     <message>
         <source>Survey</source>
         <translation type="vanished">计算</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="173"/>
         <source>Morphology</source>
-        <translation>形态学</translation>
+        <translation type="vanished">形态学</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="183"/>
         <source>Color Space</source>
-        <translation>颜色空间</translation>
+        <translation type="vanished">颜色空间</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="203"/>
+        <location filename="../mainwindow/mainwindow.ui" line="181"/>
         <source>toolBar</source>
         <translation>菜单栏</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="311"/>
         <source>G&amp;rayscale</source>
-        <translation>灰度图</translation>
+        <translation type="vanished">灰度图</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="316"/>
+        <location filename="../mainwindow/mainwindow.ui" line="50"/>
+        <source>文件(&amp;F)</source>
+        <translation type="unfinished">文件(&amp;F)</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="63"/>
+        <source>编辑</source>
+        <translation type="unfinished">编辑</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="72"/>
+        <source>帮助</source>
+        <translation type="unfinished">帮助</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="78"/>
+        <source>灰色变换(&amp;G)</source>
+        <translation type="unfinished">灰色变换(&amp;G)</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="91"/>
+        <source>几何变换</source>
+        <translation type="unfinished">几何变换</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="95"/>
+        <source>翻转
+</source>
+        <translation type="unfinished">翻转
+</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="107"/>
+        <source>艺术效果</source>
+        <translation type="unfinished">艺术效果</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="111"/>
+        <source>相框</source>
+        <translation type="unfinished">相框</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="119"/>
+        <source>纹理</source>
+        <translation type="unfinished">纹理</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="125"/>
+        <source>色温</source>
+        <translation type="unfinished">色温</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="140"/>
+        <source>模糊与锐化</source>
+        <translation type="unfinished">模糊与锐化</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="151"/>
+        <location filename="../mainwindow/mainwindow.ui" line="435"/>
+        <source>轮廓提取</source>
+        <translation type="unfinished">轮廓提取</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="161"/>
+        <source>形态学</source>
+        <translation type="unfinished">形态学</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="196"/>
+        <source>打开(&amp;O)</source>
+        <translation type="unfinished">打开(&amp;O)</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="199"/>
+        <source>打开一张图片</source>
+        <translation type="unfinished">打开一张图片</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="211"/>
+        <source>关闭图片</source>
+        <translation type="unfinished">关闭图片</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="220"/>
+        <source>保存(&amp;S)</source>
+        <translation type="unfinished">保存(&amp;S)</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="228"/>
+        <source>另存为</source>
+        <translation type="unfinished">另存为</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="233"/>
+        <source>退出</source>
+        <translation type="unfinished">退出</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="245"/>
+        <source>关于</source>
+        <translation type="unfinished">关于</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="264"/>
+        <source>恢复</source>
+        <translation type="unfinished">恢复</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="282"/>
+        <source>缩放</source>
+        <translation type="unfinished">缩放</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="287"/>
+        <source>灰度图像</source>
+        <translation type="unfinished">灰度图像</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="292"/>
         <source>&amp;Warm</source>
         <translation>变暖</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="321"/>
+        <location filename="../mainwindow/mainwindow.ui" line="297"/>
         <source>&amp;Cool</source>
         <translation>变冷</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="326"/>
+        <location filename="../mainwindow/mainwindow.ui" line="302"/>
+        <source>电影</source>
+        <translation type="unfinished">电影</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="307"/>
+        <source>经典</source>
+        <translation type="unfinished">经典</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="312"/>
+        <source>小花</source>
+        <translation type="unfinished">小花</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="317"/>
+        <source>金属</source>
+        <translation type="unfinished">金属</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="326"/>
+        <source>亮度</source>
+        <translation type="unfinished">亮度</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="335"/>
+        <source>水平</source>
+        <translation type="unfinished">水平</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="344"/>
+        <source>垂直</source>
+        <translation type="unfinished">垂直</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="353"/>
+        <source>直方图</source>
+        <translation type="unfinished">直方图</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="362"/>
+        <source>线性变换</source>
+        <translation type="unfinished">线性变换</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="367"/>
+        <source>对数变换</source>
+        <translation type="unfinished">对数变换</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="372"/>
+        <source>幂次变换</source>
+        <translation type="unfinished">幂次变换</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="381"/>
+        <source>指数变换</source>
+        <translation type="unfinished">指数变换</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="386"/>
+        <source>双阈值变换</source>
+        <translation type="unfinished">双阈值变换</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="391"/>
+        <source>拉伸变换</source>
+        <translation type="unfinished">拉伸变换</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="396"/>
+        <source>简单模糊</source>
+        <translation type="unfinished">简单模糊</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="405"/>
+        <source>高斯模糊</source>
+        <translation type="unfinished">高斯模糊</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="410"/>
+        <source>中值滤波</source>
+        <translation type="unfinished">中值滤波</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="415"/>
+        <source>拉普拉斯锐化</source>
+        <translation type="unfinished">拉普拉斯锐化</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="420"/>
+        <source>Sobel 边缘检测</source>
+        <translation type="unfinished">Sobel 边缘检测</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="425"/>
+        <source>二值化</source>
+        <translation type="unfinished">二值化</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="430"/>
+        <source>Prewitt 边缘检测</source>
+        <translation type="unfinished">Prewitt 边缘检测</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="440"/>
+        <source>边缘跟踪</source>
+        <translation type="unfinished">边缘跟踪</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="455"/>
+        <source>腐蚀</source>
+        <translation type="unfinished">腐蚀</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="460"/>
+        <source>膨胀</source>
+        <translation type="unfinished">膨胀</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="465"/>
+        <source>开运算</source>
+        <translation type="unfinished">开运算</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="470"/>
+        <source>闭运算</source>
+        <translation type="unfinished">闭运算</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="475"/>
+        <source>细化处理</source>
+        <translation type="unfinished">细化处理</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="490"/>
+        <location filename="../mainwindow/mainwindow.ui" line="493"/>
+        <source>切换语言到中文</source>
+        <translation type="unfinished">切换语言到中文</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow/mainwindow.ui" line="498"/>
+        <location filename="../mainwindow/mainwindow.ui" line="501"/>
+        <source>切换语言到英语</source>
+        <translation type="unfinished">切换语言到英语</translation>
+    </message>
+    <message>
+        <source>切换语言</source>
+        <translation type="obsolete">切换语言</translation>
+    </message>
+    <message>
         <source>&amp;Movie frame</source>
-        <translation>电影</translation>
+        <translation type="vanished">电影</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="331"/>
         <source>&amp;Classic frame</source>
-        <translation>经典</translation>
+        <translation type="vanished">经典</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="336"/>
         <source>&amp;Flower frame</source>
-        <translation>小花</translation>
+        <translation type="vanished">小花</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="341"/>
         <source>&amp;Metal</source>
-        <translation>金属</translation>
+        <translation type="vanished">金属</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="350"/>
         <source>&amp;Adjust brightness</source>
-        <translation>调整亮度</translation>
+        <translation type="vanished">调整亮度</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="359"/>
         <source>&amp;Chinese</source>
-        <translation>中文</translation>
+        <translation type="vanished">中文</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="368"/>
         <source>&amp;English</source>
-        <translation>英文</translation>
+        <translation type="vanished">英文</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="377"/>
         <source>&amp;Horizontal</source>
-        <translation>水平镜像</translation>
+        <translation type="vanished">水平镜像</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="386"/>
         <source>&amp;Vertical</source>
-        <translation>垂直镜像</translation>
+        <translation type="vanished">垂直镜像</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="395"/>
         <source>&amp;Histogram</source>
-        <translation>直方图(&amp;H)</translation>
+        <translation type="vanished">直方图(&amp;H)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="404"/>
         <source>&amp;Linear transform</source>
-        <translation>线性变换</translation>
+        <translation type="vanished">线性变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="409"/>
         <source>L&amp;ogarithm transform</source>
-        <translation>对数变换</translation>
+        <translation type="vanished">对数变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="414"/>
         <source>&amp;Power transform</source>
-        <translation>幂次变换</translation>
+        <translation type="vanished">幂次变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="423"/>
         <source>&amp;Exp transfrom</source>
-        <translation>指数变换</translation>
+        <translation type="vanished">指数变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="428"/>
         <source>&amp;Two thresholds transform</source>
-        <translation>双阈值变换</translation>
+        <translation type="vanished">双阈值变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="433"/>
         <source>&amp;Stretch transformation</source>
-        <translation>拉伸变换</translation>
+        <translation type="vanished">拉伸变换</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="438"/>
         <source>&amp;Simple</source>
-        <translation>简单平滑</translation>
+        <translation type="vanished">简单平滑</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="447"/>
         <source>&amp;Gauss</source>
-        <translation>高斯平滑</translation>
+        <translation type="vanished">高斯平滑</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="452"/>
         <source>Meida Filter</source>
-        <translation>中值滤波</translation>
+        <translation type="vanished">中值滤波</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="457"/>
         <source>Laplace</source>
-        <translation>拉普拉斯锐化</translation>
+        <translation type="vanished">拉普拉斯锐化</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="462"/>
         <source>Sobel</source>
-        <translation>Sobel边缘细化</translation>
+        <translation type="vanished">Sobel边缘细化</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="467"/>
         <source>Binaryzation</source>
-        <translation>二值化</translation>
+        <translation type="vanished">二值化</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="472"/>
         <source>Prewitt</source>
-        <translation>Prewitt</translation>
+        <translation type="vanished">Prewitt</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="477"/>
         <source>Contour extraction</source>
-        <translation>轮廓提取</translation>
+        <translation type="vanished">轮廓提取</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="482"/>
         <source>Edge following</source>
-        <translation>边缘跟踪</translation>
+        <translation type="vanished">边缘跟踪</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="487"/>
+        <location filename="../mainwindow/mainwindow.ui" line="445"/>
         <source>Area</source>
         <translation>面积</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="492"/>
+        <location filename="../mainwindow/mainwindow.ui" line="450"/>
         <source>Circumference</source>
         <translation>周长</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="497"/>
         <source>Connected domain</source>
-        <translation>连通域</translation>
+        <translation type="vanished">连通域</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="502"/>
         <source>Dilate</source>
-        <translation>Dilate</translation>
+        <translation type="vanished">Dilate</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="507"/>
         <source>Expansion</source>
-        <translation>膨胀</translation>
+        <translation type="vanished">膨胀</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="512"/>
         <source>Opening</source>
-        <translation>开运算</translation>
+        <translation type="vanished">开运算</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="517"/>
         <source>Closing</source>
-        <translation>关运算</translation>
+        <translation type="vanished">关运算</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="522"/>
         <source>Thinning</source>
-        <translation>细化</translation>
+        <translation type="vanished">细化</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="527"/>
         <source>RGB2HSV</source>
-        <translation>RGB2HSV</translation>
+        <translation type="vanished">RGB2HSV</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="532"/>
+        <location filename="../mainwindow/mainwindow.ui" line="480"/>
         <source>Equalization</source>
         <translation>亮度均衡</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="537"/>
         <source>RGB2HSL</source>
-        <translation>RGB2HSL</translation>
+        <translation type="vanished">RGB2HSL</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="542"/>
         <source>RGB2Cmyk</source>
-        <translation>RGB2CMYK</translation>
+        <translation type="vanished">RGB2CMYK</translation>
     </message>
     <message>
         <source>Edge Detection</source>
@@ -825,27 +1034,27 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">打开...</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="221"/>
+        <location filename="../mainwindow/mainwindow.ui" line="202"/>
         <source>Ctrl+O</source>
-        <translation></translation>
+        <translation type="unfinished">Ctrl+O</translation>
     </message>
     <message>
         <source>Save...</source>
         <translation type="vanished">保存...</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="238"/>
+        <location filename="../mainwindow/mainwindow.ui" line="223"/>
         <source>Ctrl+S</source>
-        <translation></translation>
+        <translation type="unfinished">Ctrl+S</translation>
     </message>
     <message>
         <source>Exit</source>
         <translation type="vanished">退出</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="251"/>
+        <location filename="../mainwindow/mainwindow.ui" line="236"/>
         <source>Ctrl+Q</source>
-        <translation></translation>
+        <translation type="unfinished">Ctrl+Q</translation>
     </message>
     <message>
         <source>About</source>
@@ -860,14 +1069,14 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">缩小</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="265"/>
+        <location filename="../mainwindow/mainwindow.ui" line="250"/>
         <source>Normal</source>
         <translation>原始尺寸</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="270"/>
+        <location filename="../mainwindow/mainwindow.ui" line="255"/>
         <source>Adjust</source>
-        <translation></translation>
+        <translation type="unfinished">调整</translation>
     </message>
     <message>
         <source>Left</source>
@@ -878,7 +1087,7 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">右旋转</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="676"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="628"/>
         <source>Zoom</source>
         <translation>缩放</translation>
     </message>
@@ -935,47 +1144,48 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">垂直</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="261"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="277"/>
         <source>Open image</source>
         <translation>打开图片</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="262"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="278"/>
         <source>All Files (*);;All Images (*.bpm *.gif *.jpg *.jpeg *.png *.ppm *.xbm *.xpm);;Image BPM (*.bpm);;Image GIF (*.gif);;Image JPG (*.jpg);;Image JPEG (*.jpeg);;Image PNG (*.png);;Image PPM (*.ppm);;Image XBM (*.xbm);;Image XPM (*.xpm);;</source>
         <translation>所有文件</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="278"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="294"/>
         <source>Unable to open image.</source>
-        <translation>无法打开文件.</translation>
+        <translation type="unfinished">无法打开文件。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="342"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="342"/>
         <source>Save image</source>
         <translation>保存图像</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="343"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="343"/>
         <source>All files (*);;Image BPM (*.bpm);;Image GIF (*.gif);;Image JPG (*.jpg);;Image JPEG (*.jpeg);;Image PNG (*.png);;Image PPM (*.ppm);;Image XBM (*.xbm);;Image XPM (*.xpm);;</source>
-        <translation></translation>
+        <translation type="unfinished">所有文件</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="357"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="357"/>
         <source>Unable to save image.</source>
-        <translation>无法保存图像.</translation>
+        <translation type="unfinished">无法保存图像。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="611"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="609"/>
         <source>Media Filter</source>
         <translation>中值滤波</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="629"/>
+        <location filename="../mainwindow/mainwindow.ui" line="485"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="1017"/>
         <source>旋转</source>
         <translation>旋转</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="831"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="783"/>
         <source>Brightness</source>
         <translation>亮度</translation>
     </message>
@@ -983,12 +1193,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QObject</name>
     <message>
-        <location filename="mainwindow.cpp" line="971"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="900"/>
         <source>面积计算</source>
         <translation>面积计算</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="995"/>
+        <location filename="../mainwindow/mainwindow.cpp" line="920"/>
         <source>周长计算</source>
         <translation>周长计算</translation>
     </message>

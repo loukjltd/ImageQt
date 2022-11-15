@@ -58,4 +58,5 @@ FORMS    += mainwindow/mainwindow.ui \
 RESOURCES += \
     res/default.qrc
 
-TRANSLATIONS += res/cn.ts
+TRANSLATIONS += res/cn.ts \
+    res/en.ts

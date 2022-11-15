@@ -129,11 +129,11 @@ private slots:
 
     void on_actionThinning_triggered();
 
-//    void on_actionRGB2HSV_triggered();
-//    void on_actionRGB2HSL_triggered();
-//    void on_actionRGB2Cmyk_triggered();
-
     void on_actionRotate_triggered();
+
+    void on_actionSwitchEnglish_triggered();
+
+    void on_actionSwitchChinese_triggered();
 
 private:
     QAction *finalEx;

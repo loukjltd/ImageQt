@@ -2,12 +2,18 @@
 #include "ui_mainwindow.h"
 #include <QDebug>
 #include <QGraphicsPixmapItem>
+#include <QTranslator>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    QTranslator translator;
+    translator.load(":/language/cn.qm");
+    qApp->installTranslator(&translator);
+    ui->retranslateUi(this);
 
 
     leftScene = new QGraphicsScene;
@@ -172,31 +178,6 @@ void MainWindow::receiveGaussianFactor(int radius, double sigma)
 
     updateRightImage(rightImage);
 }
-
-///******************************************************************************
-// *                   Receive data from zoom dialog
-// *             and then call the function to done zoom action
-// *****************************************************************************/
-//void MainWindow::receiveZoomFactor(int factor)
-//{
-//    qDebug()<<"zoom factor:"<<factor;
-
-//    if (factor != 100)
-//    {
-//        QPixmap rightImage = rightPixmapItem->pixmap();
-
-//        int cur_width = rightImage.width();
-//        int cur_height = rightImage.height();
-
-//        QPixmap newPixmap = rightImage.scaled(cur_width*factor/100, cur_height*factor/100);
-
-//        updateRightImage(newPixmap);
-//    }
-//    else
-//    {
-//        return;
-//    }
-//}
 
 void MainWindow::receiveLinearGreyParameter(double _a, double _b)
 {
@@ -815,9 +796,9 @@ void MainWindow::on_actionNormal_triggered()
  *****************************************************************************/
 void MainWindow::on_actionAbout_triggered()
 {
-    QMessageBox message(QMessageBox::NoIcon, tr(WINDOW_ABOUT), "<h1>ImageQt</h1>"
-                                                               "Powered By Qt 5.12.0.");
-    message.setIconPixmap(QPixmap(":/img/logo_1.png"));
+    QMessageBox message(QMessageBox::NoIcon, tr(WINDOW_ABOUT), "<h1>楼可嘉</h1>"
+                                                               "219350623");
+    message.setIconPixmap(QPixmap(":/img/myAvatar.jpg"));
     message.exec();
 }
 
@@ -840,16 +821,6 @@ QString MainWindow::getUserPath()
     QString userPath = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
     return userPath;
 }
-
-//void MainWindow::on_actionT_triggered()
-//{
-//    QLabel* l = new QLabel;
-//    if (!rightPixmapItem->pixmap().isNull()) {
-//        qDebug() << "hello";
-//        l->setPixmap(rightPixmapItem->pixmap());
-//        l->show();
-//    }
-//}
 
 /******************************************************************************
  *                              Prewitt边缘检测
@@ -1029,3 +1000,21 @@ void MainWindow::on_actionRotate_triggered()
         }
     }
 }
+
+
+void MainWindow::on_actionSwitchChinese_triggered()
+{
+        QTranslator translator;
+        translator.load(":/language/cn.qm");
+        qApp->installTranslator(&translator);
+        ui->retranslateUi(this);
+}
+
+void MainWindow::on_actionSwitchEnglish_triggered()
+{
+    QTranslator translator;
+    translator.load(":/language/en.qm");
+    qApp->installTranslator(&translator);
+    ui->retranslateUi(this);
+}
+
